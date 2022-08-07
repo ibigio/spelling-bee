@@ -28,6 +28,16 @@ Download it with the following command:
 curl -L "https://www.dropbox.com/s/buix0deqlks4312/lexvec.commoncrawl.ngramsubwords.300d.W.pos.bin.gz?dl=1" --output models/lexvec.commoncrawl.ngramsubwords.300d.W.pos.bin
 ```
 
-## Running
+## Setup & Run
 
-It really isn't ready to run _per se_, but you can play around with it. I might document it at some point, but not today.
+### Python Setup
+
+Set up Python virtual environment and install dependencies like so:
+```
+python3 -m venv env
+source env/bin/activate
+python -m pip install -r requirements.txt
+```
+
+### Running
+It really isn't ready to run _per se_, but you can play around with it. I might document it at some point, but not today. I think `python run.py` might do something. 🤷🏽‍♂️
