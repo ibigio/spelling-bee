@@ -23,6 +23,10 @@ This project uses the `lexvec` word embeddings model (8.6Gb) downloadable from t
 ```
 models/lexvec.commoncrawl.ngramsubwords.300d.W.pos.bin
 ```
+Download it with the following command:
+```
+curl -L "https://www.dropbox.com/s/buix0deqlks4312/lexvec.commoncrawl.ngramsubwords.300d.W.pos.bin.gz?dl=1" --output models/lexvec.commoncrawl.ngramsubwords.300d.W.pos.bin
+```
 
 ## Running
 
